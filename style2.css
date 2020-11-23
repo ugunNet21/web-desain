@@ -1,0 +1,122 @@
+
+.logo, h2 {
+    background-color: greenyellow;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-top: 1px;
+    box-sizing: border-box;
+}
+p {
+    font-family: sans-serif;
+    text-align: initial;
+    padding: 0;
+}
+img {
+    border-radius: 50px;
+}
+.search form {
+    float: right;
+    width: 20%;
+    height: 70%;
+    padding-right: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color:white;
+    padding: 8px  16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: #111;
+}
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid red;
+
+    border: 2px solid #ccc;
+
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+p{
+    padding: 2px;
+    text-align: unset;
+    margin: 0;
+}
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.img img {
+    border-radius: 2px;
+}
+input[type=submit] {
+    width: 5%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 0px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+body {
+    margin:25px;
+}
+.gallery {
+    padding: 20px;
+    margin: 0;
+    box-shadow: yellowgreen;
+    width: 97%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    
+}
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+.side {
+    width: 25%;
+    height: 20%;
+    display: table;
+    float: right;
+    margin-bottom: 10%;
+}
+table {
+    border-radius: 12px;
+    width: 20px;
+    
+    display: flex;
+}
+table tr {
+    display: flex;
+}
